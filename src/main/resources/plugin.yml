@@ -1,0 +1,16 @@
+name: CaptureTheFlag
+author: MCMagicDev
+version: 1.1.7
+depend: [MCMagicCore]
+description: MCMagic Arcade Game
+main: us.mcmagic.capturetheflag.CaptureTheFlag
+commands:
+  hub:
+    description: Send you to the Arcade
+    permission: mcmagic.hub
+  yell:
+    description: Yell to everyone!
+    permission: mcmagic.hub
+  startgame:
+    description: Start the game
+    permission: arcade.bypass
